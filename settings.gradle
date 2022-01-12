@@ -1,0 +1,7 @@
+include ':fingerpush_3.5.4'
+include ':standardlibrary-compiler'
+include ':standardlibrary-annotations'
+include ':presentation'
+include ':standardlibrary-domain'
+include ':standardlibrary'
+rootProject.name = "Standard_LIB_AOS"

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_white">#FFFFFF</color>
+    <color name="color_black">#000000</color>
+    <color name="color_toast">#AA000000</color>
+    <color name="color_today">#F37021</color>
+    <color name="color_saturday">#2E89BD</color>
+    <color name="color_sunday">#E54100</color>
+
+    <color name="popup_content_text_color">#808080</color>
+    <color name="popup_bottom_border_color">#EEEEEE</color>
+
+    <color name="bottom_navi_item_txt">#B1B1B1</color>
+
+    <color name="color_calendar_sunday">#e54100</color>
+    <color name="color_calendar_saturday">#2e89bd</color>
+    <color name="color_calendar_normalday">#666</color>
+</resources>

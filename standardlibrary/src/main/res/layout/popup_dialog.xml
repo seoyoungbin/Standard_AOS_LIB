@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="dialog"
+            type="com.syb.syblibrary.ui.view.popupdialog.CustomPopupDialog" />
+    </data>
+
+    <LinearLayout
+        android:id="@+id/splash_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:background="@drawable/popup_round_border"
+        android:orientation="vertical">
+
+        <com.syb.syblibrary.ui.view.autoscale.AutoScaleTextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center|bottom"
+            android:text="@{dialog.titleText}"
+            android:textColor="@color/color_black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <com.syb.syblibrary.ui.view.autoscale.AutoScaleTextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:paddingBottom="10dp"
+            android:gravity="center"
+            android:text="@{dialog.contentText}"
+            android:textColor="@color/popup_content_text_color"
+            android:textSize="13sp" />
+
+        <com.syb.syblibrary.ui.view.autoscale.AutoScaleEditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:gravity="center"
+            android:text="@={dialog.editTextContent}"
+            android:textColor="@color/popup_content_text_color"
+            android:textSize="13sp"
+            android:visibility="@{dialog.editTextVisible ? View.VISIBLE : View.GONE}"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:background="@color/popup_bottom_border_color" />
+
+        <com.syb.syblibrary.ui.view.autoscale.AutoScaleTextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@{dialog.confirmText}"
+            android:textColor="?attr/colorPrimary"
+            android:textSize="14sp"
+            android:onClick="@{() -> dialog.onConfirmClick()}"
+            android:visibility="@{dialog.confirmBtnVisible ? View.VISIBLE : View.GONE}"
+            android:singleLine="true"
+            android:ellipsize="end"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:background="@color/popup_bottom_border_color" />
+
+        <com.syb.syblibrary.ui.view.autoscale.AutoScaleTextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@{dialog.cancelText}"
+            android:textColor="@color/color_black"
+            android:textSize="14sp"
+            android:onClick="@{() -> dialog.onCancelClick()}"
+            android:visibility="@{dialog.cancelBtnVisible ? View.VISIBLE : View.GONE}"
+            android:singleLine="true"
+            android:ellipsize="end"/>
+
+    </LinearLayout>
+
+</layout>

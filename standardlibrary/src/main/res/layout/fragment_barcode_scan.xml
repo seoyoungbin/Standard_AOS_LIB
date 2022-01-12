@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="fragment"
+            type="com.syb.syblibrary.ui.view.barcodescan.BarcodeScanFragment" />
+    </data>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/content_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:background="@drawable/flash_button_round_border"
+            android:text="@{fragment.mFlash ? @string/message_flash_off : @string/message_flash_on}"
+            android:onClick="@{() -> fragment.toggleFlash()}"
+            android:textColor="@color/color_white"
+            android:textSize="18sp" />
+
+    </FrameLayout>
+</layout>

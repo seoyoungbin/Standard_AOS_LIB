@@ -1,0 +1,27 @@
+<resources>
+  <string name="no">아니오</string>
+  <string name="yes">네</string>
+  <string name="message_toast_notice_finish">\u0027뒤로\u0027 버튼을 한번 더 누르시면 종료됩니다.</string>
+  <string name="message_permission_request_camera">파일 선택을 위해 카메라 권한을 사용합니다.</string>
+  <string name="message_error_ssl_cert_invalid">이 사이트의 보안 인증서는 신뢰할 수 없습니다. 다음 페이지로 이동하시겠습니까?</string>
+  <string name="message_confirm">확인</string>
+  <string name="message_cancel">취소</string>
+  <string name="message_setting">설정</string>
+  <string name="message_alert">알림</string>
+
+
+  <string name="message_flash_on">Flash On</string>
+  <string name="message_flash_off">Flash Off</string>
+
+  <string name="message_quest_content">다른 페이지로 이동 하시겠습니까?</string>
+  <string name="message_quest_confirm">이 페이지 닫기</string>
+  <string name="message_quest_cancel">이 페이지에 머무르기</string>
+  <string name="message_permission_photo_request">1:1문의 첨부 파일 사용을 위해서 다음 권한이 필요합니다.</string>
+  <string name="message_permission_gps">위치 정보를 사용하기 위해서 다음 권한이 필요합니다.</string>
+
+  <string name="message_permission_file_download">파일 다운로드를 위해서 다음 권한이 필요합니다.</string>
+  <string name="message_file_download">파일 다운로드 중입니다.</string>
+  <string name="message_file_download_success">파일 다운로드 완료했습니다.</string>
+  <string name="message_file_download_fail">파일 다운로드 실패했습니다.</string>
+  <string name="message_web_string_loading">Loading…</string>
+</resources>

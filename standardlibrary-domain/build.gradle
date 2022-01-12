@@ -1,0 +1,10 @@
+plugins {
+    id 'java-library'
+    id 'kotlin'
+    id 'maven'
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    api 'io.reactivex.rxjava2:rxkotlin:2.4.0'
+}

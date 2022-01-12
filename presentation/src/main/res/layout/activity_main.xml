@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ui.main.MainActivity">
+
+    <Button
+        android:id="@+id/base_sample_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BaseSample"/>
+
+    <Button
+        android:id="@+id/view_sample_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ViewSample"/>
+
+    <Button
+        android:id="@+id/annotation_sample_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AnnotationSample"/>
+
+    <Button
+        android:id="@+id/webview_sample_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WebViewSample"/>
+
+    <Button
+        android:id="@+id/dagger_sample_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DaggerSample"/>
+
+    <Button
+        android:id="@+id/barcode_sample_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BarcodeSample"/>
+
+    <Button
+        android:id="@+id/gps_detect_sample_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GpsDetectSample"/>
+
+    <Button
+        android:id="@+id/stepchain_sample_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="StepChainSample"/>
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BlurView">
+        <attr name="radius" format="float"/>
+        <attr name="downsampleFactor" format="float"/>
+        <attr name="topRound" format="float"/>
+        <attr name="bottomRound" format="float"/>
+        <attr name="overlayColor" format="color"/>
+        <attr name="fixDrawable" format="reference"/>
+        <attr name="isBlurCapture" format="boolean"/>
+        <attr name="isTranslateEnable" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="SplashView">
+        <attr name="defaultImage" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="UnderlineTextView">
+
+        <attr name="underlineColor" format="color"/>
+        <attr name="underlineWidth" format="dimension"/>
+
+    </declare-styleable>
+
+</resources>

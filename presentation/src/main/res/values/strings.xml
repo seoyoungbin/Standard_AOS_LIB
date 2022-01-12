@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">SYB Lib Sample Project</string>
+    <string name="lloyd_scheme">lloyd</string>
+    <string name="six_dof_authority">6dof</string>
+    <string name="ar_authority">ar</string>
+    <string name="main_ar_authority">mainar</string>
+    <string name="login_authority">login</string>
+    <string name="logout_authority">logout</string>
+    <string name="setting_authority">setting</string>
+    <string name="close_popup_authority">closePopup</string>
+    <string name="contact_authority">contact</string>
+    <string name="buy_authority">buy</string>
+    <string name="present_authority">present</string>
+    <string name="product_detail_authority">productDetail</string>
+    <string name="cart_authority">cart</string>
+    <string name="externalpop_authority">externalpop</string>
+    <string name="externalpop_close_authority">externalpopClose</string>
+    <string name="slide_close_authority">slideClose</string>
+    <string name="server_change_authority">serverChange</string>
+    <string name="open_browser_autority">openBrowser</string>
+    <string name="unity_type">unity</string>
+    <string name="webview_type">webview</string>
+</resources>

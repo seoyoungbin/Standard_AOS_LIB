@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <Button
+        android:id="@+id/showLoading_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="showLoading"/>
+
+    <Button
+        android:id="@+id/hideLoading_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hideLoading"/>
+
+    <Button
+        android:id="@+id/showDialog_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="showDialog"/>
+
+    <Button
+        android:id="@+id/showMessage_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="showMessage"/>
+
+    <Button
+        android:id="@+id/showLog_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="showLog"/>
+
+    <Button
+        android:id="@+id/isNetConntected_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="isNetConntected"/>
+
+</LinearLayout>

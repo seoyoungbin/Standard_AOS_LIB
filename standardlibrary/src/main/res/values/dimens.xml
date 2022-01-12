@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="popup_border_round_dimen">15dp</dimen>
+    <dimen name="toast_border_dimen">15dp</dimen>
+</resources>

@@ -1,0 +1,9 @@
+package com.syb.syblibrary.util
+
+object LibConstants
+{
+    const val EXTRA_FINGER_PUSH_DATA = "EXTRA_FINGER_PUSH_DATA"
+    const val EXTRA_FINGER_PUSH_INTENT_ACTIVITY = "EXTRA_FINGER_PUSH_INTENT_ACTIVITY"
+    const val EXTRA_FINGER_PUSH_WEB_URL = "EXTRA_FINGER_PUSH_WEB_URL"
+    const val EXTRA_FINGER_PUSH_INAPP = "EXTRA_FINGER_PUSH_INAPP"
+}

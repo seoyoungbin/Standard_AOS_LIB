@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.syb.sample.ui.viewsample.ViewSampleActivity">
+
+    <com.syb.syblibrary.ui.view.autoscale.AutoScaleTextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="테스트입니다"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:gravity="center"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/blur_test_img"
+            android:scaleType="fitXY"/>
+
+        <com.syb.syblibrary.ui.view.blur.BlurView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:overlayColor="#44000000"
+            app:radius="200"/>
+
+    </FrameLayout>
+
+    <com.syb.syblibrary.ui.view.splash.SplashLayout
+        android:id="@+id/splash_layout"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:defaultImage="@drawable/default_splash_img"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center">
+
+        <com.syb.syblibrary.ui.view.underline.UnderlineTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="테스트입니다."
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            app:underlineColor="#666666"
+            app:underlineWidth="3px"/>
+
+    </LinearLayout>
+
+</LinearLayout>

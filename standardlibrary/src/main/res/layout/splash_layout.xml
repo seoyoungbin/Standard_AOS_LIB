@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <import type="android.view.View"/>
+        <variable
+            name="layout"
+            type="com.syb.syblibrary.ui.view.splash.SplashLayout" />
+    </data>
+
+    <FrameLayout
+        android:id="@+id/splash_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        app:fadeView="@{layout.splashLayoutVisible}">
+
+        <ImageView
+            android:id="@+id/image_server_logo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/color_white"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:id="@+id/default_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:visibility="@{layout.splashDefaultImgVisible ? View.VISIBLE : View.GONE}"/>
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:layout_marginBottom="10dp"
+            android:indeterminateTint="?attr/colorPrimary" />
+
+    </FrameLayout>
+</layout>
